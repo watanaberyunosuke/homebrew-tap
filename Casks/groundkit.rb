@@ -16,9 +16,7 @@ cask "groundkit" do
 
   app "GroundKit.app"
 
-  zap trash: [
-    "~/Library/Containers/com.harrydatahub.GroundKit",
-  ]
+  zap trash: "~/Library/Containers/com.harrydatahub.GroundKit"
 
   caveats <<~EOS
     GroundKit is not signed with an Apple Developer ID or notarised.
