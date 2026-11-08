@@ -1,6 +1,6 @@
 cask "groundkit" do
-  version "1.1.0"
-  sha256 "11eb88cf3d47c3534c76aeecd67f52606e67512f278b46cedde76e8f1ae47cbc"
+  version "1.2.0"
+  sha256 "65aa16114d6f1caf9ce32da162b81aaf2685c2d9a0821136da3511ad9f97d2d3"
 
   url "https://github.com/watanaberyunosuke/groundkit-ios/releases/download/v#{version}/GroundKit-macOS.zip"
   name "GroundKit"
